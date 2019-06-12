@@ -1,11 +1,11 @@
-package com.lambdaschool.orders;
+package local.naught.orders;
 
-import com.lambdaschool.orders.model.Agents;
-import com.lambdaschool.orders.model.Customers;
-import com.lambdaschool.orders.model.Orders;
-import com.lambdaschool.orders.repos.AgentsRepository;
-import com.lambdaschool.orders.repos.CustomersRepository;
-import com.lambdaschool.orders.repos.OrdersRepository;
+import local.naught.orders.model.Agents;
+import local.naught.orders.model.Customers;
+import local.naught.orders.model.Orders;
+import local.naught.orders.repos.AgentsRepository;
+import local.naught.orders.repos.CustomersRepository;
+import local.naught.orders.repos.OrdersRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
